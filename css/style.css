@@ -1,3 +1,5 @@
+/* POSITION */
+
 .titulo {
   display: flex;
   justify-self: center;
@@ -22,6 +24,8 @@
   width: 100%;
 }
 
+/* STYLE */
+
 body {
   background: #f7f7f7;
   font-family: Arial;
@@ -38,11 +42,11 @@ h2 {
 }
 
 h4 {
-  font-size: 64px;
+  font-size: 4rem;
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.25rem;
   padding-bottom: 30px;
 }
 
@@ -78,7 +82,7 @@ p {
 }
 
 .detalhes {
-  padding: 20px;
+  padding: 30px;
 }
 
 h3 {
@@ -100,4 +104,32 @@ span {
 
 h2:hover {
   outline: 2px solid #ee2211;
+}
+
+.botao:hover {
+  background-color: #900;
+}
+
+.detalhes2:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+.detalhes2 {
+  padding: 20px;
+}
+
+.detalhes2:hover {
+  border-left: 4px solid #ee2211;
+}
+
+.grid::after {
+  content: "_____";
+  position: absolute;
+  display: flex;
+  align-self: top;
+  justify-self: center;
+  color: #ee2211;
+  border-radius: 3px;
+  font-weight: bolder;
+  font-size: 1.5rem;
 }

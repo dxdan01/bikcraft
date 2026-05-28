@@ -1,0 +1,103 @@
+.titulo {
+  display: flex;
+  justify-self: center;
+  margin-top: 70px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 450px 450px;
+  max-width: 900px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.bike {
+  width: 100%;
+}
+
+body {
+  background: #f7f7f7;
+  font-family: Arial;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  background: white;
+  border-radius: 8px;
+  padding: 10px 20px 10px 20px;
+}
+
+h4 {
+  font-size: 64px;
+}
+
+p {
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+.grid {
+  background: white;
+  border-radius: 20px;
+}
+
+.bike {
+  border-radius: 0px 20px 0px 0px;
+}
+
+.texto {
+  text-align: right;
+  padding: 20px;
+  align-content: center;
+}
+
+.botao {
+  background: #ee2211;
+  text-decoration: none;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 6px;
+}
+
+.vantagens {
+  text-align: right;
+  align-content: center;
+  padding-right: 20px;
+  color: #c6c6c6;
+  background-image: url("../img/onda.svg");
+}
+
+.detalhes {
+  padding: 20px;
+}
+
+h3 {
+  display: inline;
+  padding: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 100px;
+}
+
+span {
+  color: #ee2211;
+  font-weight: bold;
+}
+
+h2:hover {
+  outline: 2px solid #ee2211;
+}
